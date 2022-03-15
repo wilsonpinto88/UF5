@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z+3eIXENXZ4DYk3OkHpK/AJLDEAlhmvdhEtTMs0IkDjnkt1sNVAB/u9nePY2OR2OuTepbHHSQLctH9w/nCpyBQ==",
+  "dgSpecHash": "uJB1LCZRkPshglRNE3hUOZkiBMLkdzIye47S6WDz6++bs0ZcPU3bK5e2RUiondURV19HQ4UWrTC2yG+9t8g0uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wilso\\Desktop\\.Net\\requalificar-digital-main\\dotnet\\Ficha10\\Ficha10\\Ficha10.csproj",
+  "projectFilePath": "C:\\Users\\wilso\\Desktop\\.Net\\GIT\\UF5\\Ficha10\\Ficha10\\Ficha10.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wilso\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\wilso\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

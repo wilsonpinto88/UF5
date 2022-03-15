@@ -1,7 +1,6 @@
-﻿using Ficha10;
-using Ficha10.Models;
+﻿using Ficha7Saturday;
 
-namespace Ficha7Saturday
+namespace Ficha10.Models
 {
     public class Employees : IEmployees
     {
@@ -13,6 +12,6 @@ namespace Ficha7Saturday
         }
 
         public List<Employee> EmployeesList { get { return employeesList; } set { employeesList = value; } }
-        
+
     }
 }

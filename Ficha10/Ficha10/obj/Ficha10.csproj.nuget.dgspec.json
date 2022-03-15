@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wilso\\Desktop\\.Net\\requalificar-digital-main\\dotnet\\Ficha10\\Ficha10\\Ficha10.csproj": {}
+    "C:\\Users\\wilso\\Desktop\\.Net\\GIT\\UF5\\Ficha10\\Ficha10\\Ficha10.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wilso\\Desktop\\.Net\\requalificar-digital-main\\dotnet\\Ficha10\\Ficha10\\Ficha10.csproj": {
+    "C:\\Users\\wilso\\Desktop\\.Net\\GIT\\UF5\\Ficha10\\Ficha10\\Ficha10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wilso\\Desktop\\.Net\\requalificar-digital-main\\dotnet\\Ficha10\\Ficha10\\Ficha10.csproj",
+        "projectUniqueName": "C:\\Users\\wilso\\Desktop\\.Net\\GIT\\UF5\\Ficha10\\Ficha10\\Ficha10.csproj",
         "projectName": "Ficha10",
-        "projectPath": "C:\\Users\\wilso\\Desktop\\.Net\\requalificar-digital-main\\dotnet\\Ficha10\\Ficha10\\Ficha10.csproj",
+        "projectPath": "C:\\Users\\wilso\\Desktop\\.Net\\GIT\\UF5\\Ficha10\\Ficha10\\Ficha10.csproj",
         "packagesPath": "C:\\Users\\wilso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wilso\\Desktop\\.Net\\requalificar-digital-main\\dotnet\\Ficha10\\Ficha10\\obj\\",
+        "outputPath": "C:\\Users\\wilso\\Desktop\\.Net\\GIT\\UF5\\Ficha10\\Ficha10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wilso\\AppData\\Roaming\\NuGet\\NuGet.Config",
