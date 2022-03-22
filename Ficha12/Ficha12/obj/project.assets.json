@@ -1824,11 +1824,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wilso\\Desktop\\.Net\\UF - 5\\VS\\Entity Framework\\Ficha 12\\Ficha12\\Ficha12\\Ficha12.csproj",
+      "projectUniqueName": "C:\\Users\\wilso\\Desktop\\.Net\\GIT\\UF5\\Ficha12\\Ficha12\\Ficha12.csproj",
       "projectName": "Ficha12",
-      "projectPath": "C:\\Users\\wilso\\Desktop\\.Net\\UF - 5\\VS\\Entity Framework\\Ficha 12\\Ficha12\\Ficha12\\Ficha12.csproj",
+      "projectPath": "C:\\Users\\wilso\\Desktop\\.Net\\GIT\\UF5\\Ficha12\\Ficha12\\Ficha12.csproj",
       "packagesPath": "C:\\Users\\wilso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wilso\\Desktop\\.Net\\UF - 5\\VS\\Entity Framework\\Ficha 12\\Ficha12\\Ficha12\\obj\\",
+      "outputPath": "C:\\Users\\wilso\\Desktop\\.Net\\GIT\\UF5\\Ficha12\\Ficha12\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wilso\\AppData\\Roaming\\NuGet\\NuGet.Config",

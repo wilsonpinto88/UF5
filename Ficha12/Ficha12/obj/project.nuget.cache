@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jXegBZUKjr+W0hZc2wNXFDV6+xLCZ6+Ju5kKzfiLcnTUHrd7lSNEhESU9BLtgbPrcL8JJ5Z9lZ569XjaL2QxZQ==",
+  "dgSpecHash": "93yfkSuAFWIDfCXjyhP+wb0tv83RUjaCm2iZgEmxIPREyjn4rHkCFpy1GDp6fi6EuqBx5PInqa00TlIOcmOBEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wilso\\Desktop\\.Net\\UF - 5\\VS\\Entity Framework\\Ficha 12\\Ficha12\\Ficha12\\Ficha12.csproj",
+  "projectFilePath": "C:\\Users\\wilso\\Desktop\\.Net\\GIT\\UF5\\Ficha12\\Ficha12\\Ficha12.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wilso\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\wilso\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
