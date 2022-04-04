@@ -1,0 +1,245 @@
+﻿@using System.Xml.Serialization
+@model IEnumerable<Post>
+
+@{
+	ViewBag.Title = "Feed";
+	Layout = "_Layout";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<!-- Page Container -->
+<div class="container content" style="max-width: 1400px; margin-top: 40px">
+
+	<!-- Middle Column -->
+	<div class="col m7">
+
+		@*Write a Post*@
+		@*<div class="row-padding">
+			<div class="col m12">
+				<div class="card round white">
+					<div class="container padding">
+						<form asp-controller="Home" asp-action="Post">
+							<div class="form-group">
+								<input type="submit" value="Post" class="btn btn-primary" />
+							</div>
+						</form>
+						<h6 class="opacity">Share your thoughts</h6>
+						<p contenteditable="true" class="border padding"></p>
+						<button type="button" class="btn btn-primary"><i class="fa fa-pencil"></i> &nbsp;Post</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br/>*@
+		
+
+		@*Active Post Feed*@
+		@*This is a layout*@
+		<div class="container card white round margin">
+			
+			@foreach (Post post in @Model)
+			{
+				<img src="/images/profileDefault.jpg" alt="" class="left circle margin-right" style="width:60px">
+				<span><strong>@post.User.UserName</strong></span>
+				<span style="float: right; margin-top: 5px;" class="right opacity">@post.Date</span>
+				<hr class="clear">
+				<p>@post.Message</p>
+				
+
+	
+				<button type="button" class="btn btn-primary margin-bottom"><i class="fa fa-thumbs-up"></i> &nbsp;Like</button>
+				<button type="button" class="btn btn-primary margin-bottom"><i class="fa fa-comment"></i> &nbsp;Comment</button>
+			}
+			
+		</div>
+		
+	</div>
+	<!-- End Middle Column -->
+</div>
+<!-- End Grid -->
+<!-- End Page Container -->
+
+<!-- CSS -->
+@*<style>
+	.card {
+		display: inline-block;
+	}
+</style>*@
+@*<style>
+	.w3-padding {
+		padding: 8px 16px !important;
+		box-sizing: inherit;
+	}
+
+	.w3-container {
+		padding: 0.01em 16px;
+	}
+
+	.w3-row-padding {
+		padding: 0 100px;
+	}
+
+	.w3-col {
+		float: left;
+	}
+
+		.w3-col.m2 {
+			width: 16.66666%;
+		}
+
+	.w3-white {
+		color: #000;
+		background-color: #fff;
+	}
+
+	w3-card {
+		box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+	}
+
+	.w3-round {
+		border-radius: 4px;
+	}
+
+	div {
+		display: block;
+	}
+
+	h6 {
+		font-weight: 400;
+		margin: 10px 0;
+		font-size: 16px;
+	}
+
+	h4 {
+		font-weight: 400;
+		margin: 10px 0;
+		font-size: 20px;
+		display: block;
+		margin-block-start: 1.33em;
+		margin-block-end: 1.33em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+	}
+
+	hr {
+		border: 0;
+		border-top: 1px solid #eee;
+		margin: 20px 0;
+		box-sizing: content-box;
+		height: 0;
+		overflow: visible;
+		display: block;
+		unicode-bidi: isolate;
+		margin-block-start: 0.5em;
+		margin-block-end: 0.5em;
+		margin-inline-start: auto;
+		margin-inline-end: auto;
+	}
+
+	p {
+		display: block;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+	}
+
+	.w3-border {
+		border: 1px solid #ccc;
+	}
+
+	.w3-theme {
+		color: #fff;
+		background-color: #607d8b;
+	}
+
+	.w3-margin {
+		margin: 16px;
+	}
+
+	.w3-card, .w3-card-2 {
+		box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+	}
+
+	.w3-opacity {
+		opacity: 0.06;
+	}
+
+	.w3-theme-d1 {
+		color: #fff;
+		background-color: #57707d;
+	}
+
+	.w3-theme-d2 {
+		color: #fff;
+		background-color: #4d636f;
+	}
+
+	.fa-thumbs-up:before {
+		content: "\f164";
+	}
+
+	.fa-comment:before {
+		content: "\f075";
+	}
+
+	.w3-button {
+		user-select: none;
+		border: none;
+		display: inline-block;
+		padding: 8px 16px;
+		vertical-align: middle;
+		overflow: hidden;
+		text-decoration: none;
+		text-align: center;
+		cursor: pointer;
+		white-space: nowrap;
+	}
+
+	button, [type=button] {
+		-webkit-appearance: button;
+	}
+
+	button {
+		text-transform: none;
+		font: inherit;
+		margin: 0;
+		writing-mode: horizontal-tb;
+		text-rendering: auto;
+		letter-spacing: normal;
+		word-spacing: normal;
+		text-indent: 0px;
+		text-shadow: none;
+		align-items: flex-start;
+	}
+
+	.fa-pencil:before {
+		content: "\f040";
+	}
+
+	.w3-left {
+		float: left;
+	}
+
+	.w3-margin-right {
+		margin-right: 16px;
+	}
+
+	.w3-circle {
+		border-radius: 50%;
+	}
+
+	.w3-margin-bottom {
+		margin-bottom: 16px;
+	}
+
+	img {
+		vertical-align: middle;
+		border-style: none;
+	}
+
+	img, .w3-margin-bottom {
+		width: 100%;
+	}
+</style>*@

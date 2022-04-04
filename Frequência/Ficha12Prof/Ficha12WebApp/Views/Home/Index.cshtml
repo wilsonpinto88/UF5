@@ -1,0 +1,63 @@
+﻿@model BooksViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+    <table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Books.FirstOrDefault().Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Books.FirstOrDefault().ISBN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Books.FirstOrDefault().Language)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Books.FirstOrDefault().Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Books.FirstOrDefault().Pages)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        .
+        @foreach (var item in Model.Books)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ISBN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Language)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pages)
+                </td>
+                <td>
+                    <a asp-action="Update" asp-route-isbn="@item.ISBN">Update</a> |
+                    <a asp-action="Details" asp-route-isbn="@item.ISBN">Details</a> |
+                    <a asp-action="DeleteConfirm" asp-route-isbn="@item.ISBN">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+</div>
