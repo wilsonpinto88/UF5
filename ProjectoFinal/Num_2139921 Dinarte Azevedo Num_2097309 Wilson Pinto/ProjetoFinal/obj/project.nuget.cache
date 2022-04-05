@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sshD/w0G1ebVUm/SlAeollrQyptLdZOLIykVkJvEKVS6AhFGeOR4j/uwlWQrBug60SlGXpANA0YSGuMII49g6A==",
+  "dgSpecHash": "PaFTMNRMtLC0aCwYXXlggRbkIR/wClZDpW5FMbHocGUpTdpuuE3Jv2Qg7RTIxig2hg8ThXHDzUwn1Dh1+Ss75w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wilso\\Desktop\\Num_2139921 Dinarte Azevedo Num_2097309 Wilson Pinto\\ProjetoFinal\\ProjetoFinal.csproj",
+  "projectFilePath": "C:\\Users\\wilso\\Desktop\\.Net\\GIT\\UF5\\ProjectoFinal\\Num_2139921 Dinarte Azevedo Num_2097309 Wilson Pinto\\ProjetoFinal\\ProjetoFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wilso\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\wilso\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
